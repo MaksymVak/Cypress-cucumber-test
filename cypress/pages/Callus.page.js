@@ -10,7 +10,9 @@ class CallUsPage {
 
     openCallUsMenu () {
         generalPage.clickElementContains(callUsLink, callUsLinkText)
+        generalPage.waitSeconds(1500)
         generalPage.clickElement(callingLink)
+        generalPage.waitSeconds(1500)
     }
 
     validatTitleText(){
