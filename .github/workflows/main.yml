@@ -38,7 +38,8 @@ jobs:
               if: always()
               with:
                   name: cucumber-report
-                  path: ./reports/cucumber-htmlreport 
+                  path: ./reports/cucumber-htmlreport
+                  gh_pages: gh-pages 
             - name: Deploy to pages
               if: always()
               uses: peaceiris/actions-gh-pages@v3.7.3
