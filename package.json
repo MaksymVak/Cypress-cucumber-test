@@ -6,7 +6,9 @@
   "scripts": {
     "cypress:run": "cypress run",
     "test": "cypress open",
-    "cypress:report": "node cucumber-html-report.js"
+    "cypress:report": "node cucumber-html-report.js",
+    "cy:test": "DEBUG=allure-plugin* npx cypress run --config specPattern=cypress/e2e/* --env allure=true --browser chrome",
+    "cy:cucumber:run": "DEBUG=allure-plugin* npx cypress run --config specPattern=cypress/e2e/cucumber/*.feature,excludeSpecPattern=*.js --env allure=true --browser chrome"
   },
   "keywords": [
     "cypress"
