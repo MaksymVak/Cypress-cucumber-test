@@ -17,22 +17,22 @@ class ResourcesPage {
 
     goResources () {
         generalPage.clickElement(resourcesLink)
-        generalPage.waitSeconds(2000)
+        generalPage.waitSeconds(1500)
     }
     goResourcesHub () {
         generalPage.clickElement(resourcesHubLink)
-        generalPage.waitSeconds(2000)
+        generalPage.waitSeconds(1500)
     }
     goReleaseNotes () {
         generalPage.clickElement(releaseNotesLink)
-        generalPage.waitSeconds(2000)
+        generalPage.waitSeconds(1500)
     }
     selectResourcesProduct () {
         generalPage.clickElementContains(linkFilter, buttonFilterProduct)
     }
     selectResourcesContent (value) {
         generalPage.clickElementContains(linkFilter, value)
-        generalPage.waitSeconds(2000)
+        generalPage.waitSeconds(1500)
     }
     validatTitleText(){
         return generalPage.getElement(validatTitle)

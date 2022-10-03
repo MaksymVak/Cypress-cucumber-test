@@ -9,7 +9,7 @@ class TrunkPricingPage {
 
     goTrunkPricing () {
         generalPage.clickElement(trunkPLink)
-        generalPage.waitSeconds(2000)
+        generalPage.waitSeconds(1500)
     }
 
     selectDropMenu (){

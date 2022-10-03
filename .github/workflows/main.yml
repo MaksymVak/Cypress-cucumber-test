@@ -1,5 +1,6 @@
-name: E2E test with cypress-cucumber
+name: BDD test with cypress-cucumber
 on:
+    workflow_dispatch:
     push:
         branches: [main]
 jobs:

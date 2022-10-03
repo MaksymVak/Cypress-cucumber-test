@@ -1,7 +1,7 @@
 {
   "name": "cypress-cucumber",
   "version": "1.0.0",
-  "description": "Cypress-Cucumber-Autotest.",
+  "description": "Cypress-Cucumber-Autotest",
   "main": "index.js",
   "scripts": {
     "cypress:run": "npx cypress run --browser chrome",

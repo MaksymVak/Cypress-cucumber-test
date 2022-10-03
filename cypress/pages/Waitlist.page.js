@@ -12,9 +12,9 @@ class WaitlistPage {
 
     goJoinWaitlistLink () {
         generalPage.clickElement(waitlistLink)
-        generalPage.waitSeconds(2000)
+        generalPage.waitSeconds(1500)
         generalPage.clickElement(waitlistForm)
-        generalPage.waitSeconds(2000)
+        generalPage.waitSeconds(1500)
     }
 
     fillField (firstName, lastName, email) {

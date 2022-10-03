@@ -16,21 +16,21 @@ class ProductPage {
 
     gosipTrunks () {
         generalPage.clickElement(sipTrunksLink)
-        generalPage.waitSeconds(2000)
+        generalPage.waitSeconds(1500)
     }
     goVoiseApi () {
         generalPage.clickElement(voiceApiLink)
-        generalPage.waitSeconds(2000)
+        generalPage.waitSeconds(1500)
     }
     goNumberLookup () {
         generalPage.clickElement(numberLookupLink)
-        generalPage.waitSeconds(2000)
+        generalPage.waitSeconds(1500)
     }
     goFaxApi () {
         generalPage.clickElement(allProductLink)
-        generalPage.waitSeconds(2000)
+        generalPage.waitSeconds(1500)
         generalPage.clickElement(faxApi)
-        generalPage.waitSeconds(2000)
+        generalPage.waitSeconds(1500)
     }
     selectCaseLink (value){
         generalPage.clickElementContains(selectCase, value)
