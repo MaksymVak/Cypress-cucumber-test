@@ -1,5 +1,6 @@
 name: Cypress-cucumber-tests
 on:
+    workflow_dispatch:
     push:
         branches: [main]
 jobs:

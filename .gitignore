@@ -11,4 +11,5 @@ dist/
 TEST*.xml
 .DS_Store
 Thumbs.db
-jsonlogs/
+
+
