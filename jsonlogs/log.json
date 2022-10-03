@@ -1,0 +1,1565 @@
+[
+  {
+    "description": "    Checking the visibility of phone numbers of different countries",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Opens the web browser of the home page of the site",
+            "result": {
+              "duration": 2793000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Reset the cookie window",
+            "result": {
+              "duration": 248000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "call-us---link-testing;checking-the-visibility-of-phone-numbers",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Checking the visibility of phone numbers",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 10,
+            "name": "Open menu Call Us and go to the page Calling from overseas",
+            "result": {
+              "duration": 401000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "The section title should be \"Calling from overseas?\"",
+            "result": {
+              "duration": 1136000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 12,
+            "name": "Phone numbers of the respective countries must be present",
+            "result": {
+              "duration": 894000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "country"
+                ]
+              },
+              {
+                "cells": [
+                  "Estonia"
+                ]
+              },
+              {
+                "cells": [
+                  "Finland"
+                ]
+              },
+              {
+                "cells": [
+                  "Ireland"
+                ]
+              },
+              {
+                "cells": [
+                  "Israel"
+                ]
+              },
+              {
+                "cells": [
+                  "Mexico"
+                ]
+              },
+              {
+                "cells": [
+                  "Netherlands"
+                ]
+              },
+              {
+                "cells": [
+                  "New Zealand"
+                ]
+              },
+              {
+                "cells": [
+                  "Philippines"
+                ]
+              },
+              {
+                "cells": [
+                  "Poland"
+                ]
+              },
+              {
+                "cells": [
+                  "Singapore"
+                ]
+              },
+              {
+                "cells": [
+                  "United Kingdom"
+                ]
+              },
+              {
+                "cells": [
+                  "All other countries"
+                ]
+              }
+            ]
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "call-us---link-testing",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Call Us - link testing",
+    "uri": "cypress\\e2e\\features\\Callus.feature"
+  },
+  {
+    "description": "    Checking the correctness of clicking on links and matching texts",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Opens the web browser of the home page of the site",
+            "result": {
+              "duration": 3727000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Reset the cookie window",
+            "result": {
+              "duration": 213000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "company---link-testing;about-us-checking-texts-and-addresses",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "About Us checking texts and addresses",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 10,
+            "name": "Go to the page About Us",
+            "result": {
+              "duration": 179000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "The title of the page will be \"Unlocking the power of intelligent connectivity\"",
+            "result": {
+              "duration": 556000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "An address in the city must be available",
+            "result": {
+              "duration": 478000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "city"
+                ]
+              },
+              {
+                "cells": [
+                  "Chicago"
+                ]
+              },
+              {
+                "cells": [
+                  "Dublin"
+                ]
+              },
+              {
+                "cells": [
+                  "Warsaw"
+                ]
+              },
+              {
+                "cells": [
+                  "São Paulo"
+                ]
+              },
+              {
+                "cells": [
+                  "Amsterdam"
+                ]
+              },
+              {
+                "cells": [
+                  "Denver"
+                ]
+              }
+            ]
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Opens the web browser of the home page of the site",
+            "result": {
+              "duration": 1742000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Reset the cookie window",
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "company---link-testing;data-\u0026-privacy-following-links",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Data \u0026 Privacy following links",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 22,
+            "name": "Go to the page Data \u0026 Privacy",
+            "result": {
+              "duration": 1706000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 23,
+            "name": "Let's follow the link",
+            "result": {
+              "duration": 1243000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "link"
+                ]
+              },
+              {
+                "cells": [
+                  "Telnyx Product Updates"
+                ]
+              },
+              {
+                "cells": [
+                  "GDPR Frequently Asked Questions"
+                ]
+              },
+              {
+                "cells": [
+                  "Compliance"
+                ]
+              },
+              {
+                "cells": [
+                  "Data Transfer Impact Assessment"
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "line": 29,
+            "name": "Section heading must match",
+            "result": {
+              "duration": 248000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "link"
+                ]
+              },
+              {
+                "cells": [
+                  "Telnyx Product Updates"
+                ]
+              },
+              {
+                "cells": [
+                  "GDPR Frequently Asked Questions"
+                ]
+              },
+              {
+                "cells": [
+                  "Compliance"
+                ]
+              },
+              {
+                "cells": [
+                  "Data Transfer Impact Assessment"
+                ]
+              }
+            ]
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Opens the web browser of the home page of the site",
+            "result": {
+              "duration": 1416000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Reset the cookie window",
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "company---link-testing;report-abuse-filling-out-the-form",
+        "keyword": "Scenario",
+        "line": 37,
+        "name": "Report Abuse filling out the form",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 38,
+            "name": "Go to the page Report Abuse",
+            "result": {
+              "duration": 1717000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 39,
+            "name": "Fill out the report form and click the submit button",
+            "result": {
+              "duration": 1827000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "subject",
+                  "phone",
+                  "phonRecAbus",
+                  "fullName"
+                ]
+              },
+              {
+                "cells": [
+                  "Testing",
+                  "1111111111",
+                  "2222222222",
+                  "Ivan"
+                ]
+              }
+            ]
+          },
+          {
+            "keyword": "Then ",
+            "line": 42,
+            "name": "An error message should appear",
+            "result": {
+              "duration": 24000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Opens the web browser of the home page of the site",
+            "result": {
+              "duration": 1147000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Reset the cookie window",
+            "result": {
+              "duration": 10000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "company---link-testing;checking-page-titles-privacy-policy",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Checking page titles Privacy Policy",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 45,
+            "name": "Go to the page Privacy Policy",
+            "result": {
+              "duration": 1688000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 46,
+            "name": "Page url must contain \"/privacy-policy\"",
+            "result": {
+              "duration": 20000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 47,
+            "name": "Page titles should contain relevant text",
+            "result": {
+              "duration": 783000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "title"
+                ]
+              },
+              {
+                "cells": [
+                  "Policy Revisions"
+                ]
+              },
+              {
+                "cells": [
+                  "Cookies"
+                ]
+              },
+              {
+                "cells": [
+                  "Data Protection"
+                ]
+              },
+              {
+                "cells": [
+                  "CCPA Data Protection Rights"
+                ]
+              },
+              {
+                "cells": [
+                  "International Data Transfer"
+                ]
+              },
+              {
+                "cells": [
+                  "Third Party Sub-Processors"
+                ]
+              }
+            ]
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "company---link-testing",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Company - link testing",
+    "uri": "cypress\\e2e\\features\\Company.feature"
+  },
+  {
+    "description": "    Checking the operation of the country selection",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Opens the web browser of the home page of the site",
+            "result": {
+              "duration": 3305000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Reset the cookie window",
+            "result": {
+              "duration": 218000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "pricing---function-test;elastic-sip-trunking-pricing",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Elastic SIP Trunking pricing",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 9,
+            "name": "Go to the page Elastic SIP Trunking pricing",
+            "result": {
+              "duration": 2187000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 10,
+            "name": "Choose a country Ukraine",
+            "result": {
+              "duration": 602000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "The page title contains the \"Ukraine\" and url contains \"/ua\"",
+            "result": {
+              "duration": 838000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "pricing---function-test",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Pricing - function test",
+    "uri": "cypress\\e2e\\features\\Pricing.feature"
+  },
+  {
+    "description": "    Verification of texts and links of the product page",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Opens the web browser of the home page of the site",
+            "result": {
+              "duration": 3970000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Reset the cookie window",
+            "result": {
+              "duration": 217000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "product---link-and-text-testing;elastic-sip-trunking---whatever-you-need,-build-it-with-telnyx",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Elastic SIP Trunking - Whatever you need, build it with Telnyx",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 10,
+            "name": "Go to the page Elastic SIP Trunking",
+            "result": {
+              "duration": 1711000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Clicking on a link should open the corresponding page",
+            "result": {
+              "duration": 3849000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "link"
+                ]
+              },
+              {
+                "cells": [
+                  "UCaaS"
+                ]
+              },
+              {
+                "cells": [
+                  "Managed"
+                ]
+              },
+              {
+                "cells": [
+                  "Business"
+                ]
+              },
+              {
+                "cells": [
+                  "Multi"
+                ]
+              }
+            ]
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Opens the web browser of the home page of the site",
+            "result": {
+              "duration": 1199000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Reset the cookie window",
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "product---link-and-text-testing;voice-api---build-exactly-what-you-need-for-your-use-case.",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Voice Api - Build exactly what you need for your use-case.",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 19,
+            "name": "Go to the page Voice Api",
+            "result": {
+              "duration": 1694000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 20,
+            "name": "Clicking on a link should open the corresponding section",
+            "result": {
+              "duration": 1604000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "link"
+                ]
+              },
+              {
+                "cells": [
+                  "Conference Calls"
+                ]
+              },
+              {
+                "cells": [
+                  "Call Tracking"
+                ]
+              },
+              {
+                "cells": [
+                  "Cloud IVR"
+                ]
+              },
+              {
+                "cells": [
+                  "Contact Center"
+                ]
+              },
+              {
+                "cells": [
+                  "Sales Acceleration"
+                ]
+              },
+              {
+                "cells": [
+                  "AI \u0026 Voice Analytics"
+                ]
+              }
+            ]
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Opens the web browser of the home page of the site",
+            "result": {
+              "duration": 1399000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Reset the cookie window",
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "product---link-and-text-testing;voice-api---all-your-business-needs,-in-one-api",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Voice Api - All your business needs, in one API",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 30,
+            "name": "Go to the page Voice Api",
+            "result": {
+              "duration": 1674000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 31,
+            "name": "Clicking on a link should open the corresponding page",
+            "result": {
+              "duration": 3556000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "link"
+                ]
+              },
+              {
+                "cells": [
+                  "Cloud IVR"
+                ]
+              },
+              {
+                "cells": [
+                  "Contact Center"
+                ]
+              },
+              {
+                "cells": [
+                  "Call Tracking"
+                ]
+              },
+              {
+                "cells": [
+                  "AI \u0026 Voice Analytics"
+                ]
+              }
+            ]
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Opens the web browser of the home page of the site",
+            "result": {
+              "duration": 1449000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Reset the cookie window",
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "product---link-and-text-testing;number-lookup---what-can-you-build-with-the-telnyx-lookup-api",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Number Lookup - What can you build with the Telnyx Lookup API",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 39,
+            "name": "Go to the page Number Lookup",
+            "result": {
+              "duration": 1660000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 40,
+            "name": "Clicking on a link should open the corresponding page",
+            "result": {
+              "duration": 3250000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "link"
+                ]
+              },
+              {
+                "cells": [
+                  "Contact Center"
+                ]
+              },
+              {
+                "cells": [
+                  "Factor Authentication"
+                ]
+              },
+              {
+                "cells": [
+                  "SMS Marketing"
+                ]
+              },
+              {
+                "cells": [
+                  "Call Tracking"
+                ]
+              }
+            ]
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Opens the web browser of the home page of the site",
+            "result": {
+              "duration": 1289000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Reset the cookie window",
+            "result": {
+              "duration": 8000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "product---link-and-text-testing;fax-api---check-link-and-page-title",
+        "keyword": "Scenario",
+        "line": 47,
+        "name": "Fax Api - Check link and page title",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 48,
+            "name": "Go to the page Fax Api through the menu See all Products",
+            "result": {
+              "duration": 3566000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 49,
+            "name": "The page address must contain \"fax-api\"",
+            "result": {
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 50,
+            "name": "The page title should be \"Reliably transmit documents with our Programmable Fax API over Private IP\"",
+            "result": {
+              "duration": 74000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "product---link-and-text-testing",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Product - link and text testing",
+    "uri": "cypress\\e2e\\features\\Product.feature"
+  },
+  {
+    "description": "    Checking the presence and visibility of relevant links and texts",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Opens the web browser of the home page of the site",
+            "result": {
+              "duration": 3389000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Reset the cookie window",
+            "result": {
+              "duration": 214000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "resources---link-testing;testing-the-blog-filter",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Testing the blog filter",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 10,
+            "name": "Go to the page Blog",
+            "result": {
+              "duration": 1793000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 11,
+            "name": "Select Voice API and select \"Guides \u0026 Tutorials\"",
+            "result": {
+              "duration": 1799000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Headers must contain \"Guides \u0026 Tutorials\"",
+            "result": {
+              "duration": 1699000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Opens the web browser of the home page of the site",
+            "result": {
+              "duration": 1403000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Reset the cookie window",
+            "result": {
+              "duration": 9000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "resources---link-testing;resource-hub-page-title-check",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Resource Hub page title check",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 15,
+            "name": "Go to the page Resource Hub",
+            "result": {
+              "duration": 1689000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 16,
+            "name": "Page titles must match the text",
+            "result": {
+              "duration": 388000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "title"
+                ]
+              },
+              {
+                "cells": [
+                  "SMS Guide"
+                ]
+              },
+              {
+                "cells": [
+                  "VoIP Guide"
+                ]
+              },
+              {
+                "cells": [
+                  "SIP Trunk Guide"
+                ]
+              },
+              {
+                "cells": [
+                  "WebRTC Guide"
+                ]
+              },
+              {
+                "cells": [
+                  "IoT Guide"
+                ]
+              },
+              {
+                "cells": [
+                  "Two-Factor Authentication Guide"
+                ]
+              },
+              {
+                "cells": [
+                  "Fax Guide"
+                ]
+              },
+              {
+                "cells": [
+                  "SHAKEN/STIR Guide"
+                ]
+              }
+            ]
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Opens the web browser of the home page of the site",
+            "result": {
+              "duration": 1442000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Reset the cookie window",
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "resources---link-testing;checking-links-and-news-feed-texts",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Checking links and news feed texts",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 28,
+            "name": "Go to the page Release Notes",
+            "result": {
+              "duration": 1680000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 29,
+            "name": "The url must match \"/release-notes\"",
+            "result": {
+              "duration": 12000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 30,
+            "name": "The page title should be \"Release Notes\" and the filter menu should be visible",
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "resources---link-testing",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Resources - link testing",
+    "uri": "cypress\\e2e\\features\\Resources.feature"
+  },
+  {
+    "description": "    Functionality check",
+    "elements": [
+      {
+        "description": "",
+        "keyword": "Background",
+        "line": 5,
+        "name": "",
+        "steps": [
+          {
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Opens the web browser of the home page of the site",
+            "result": {
+              "duration": 4090000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "And ",
+            "line": 7,
+            "name": "Reset the cookie window",
+            "result": {
+              "duration": 208000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "background"
+      },
+      {
+        "description": "",
+        "id": "waitlist---link-testing;waitlist---functionality-check",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Waitlist - functionality check",
+        "steps": [
+          {
+            "keyword": "When ",
+            "line": 10,
+            "name": "Go to the page Waitlist and go to the form Waitlist",
+            "result": {
+              "duration": 4415000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "When ",
+            "line": 11,
+            "name": "Enter random values in all fields",
+            "result": {
+              "duration": 1461000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "keyword": "Then ",
+            "line": 12,
+            "name": "The title of the page must match \"You're on the waitlist!\"",
+            "result": {
+              "duration": 2463000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "waitlist---link-testing",
+    "keyword": "Feature",
+    "line": 1,
+    "name": "Waitlist - link testing",
+    "uri": "cypress\\e2e\\features\\Waitlist.feature"
+  }
+]
