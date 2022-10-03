@@ -4,11 +4,9 @@
   "description": "Cypress-Cucumber-Autotest.",
   "main": "index.js",
   "scripts": {
-    "cypress:run": "cypress run",
+    "cypress:run": "npx cypress run --browser chrome",
     "test": "cypress open",
-    "cypress:report": "node cucumber-html-report.js",
-    "cy:test": "npx cypress run --config specPattern=cypress/e2e/step_definitions/* --env allure=true --browser chrome",
-    "cy:cucumber:run": "npx cypress run --config specPattern=cypress/e2e/cucumber/e2e/features/*.feature,excludeSpecPattern=*.js --env allure=true --browser chrome"
+    "cypress:report": "node cucumber-html-report.js"
   },
   "keywords": [
     "cypress"
