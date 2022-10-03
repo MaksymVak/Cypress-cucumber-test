@@ -1,35 +1,45 @@
-name: Cypress-cucumber-tests
-on:
-    workflow_dispatch:
+name: allure-report
+'on':
     push:
-        branches: [main]
+        branches:
+            - master
 jobs:
-    Run_test:
-        runs-on: windows-latest
-        strategy:
-            matrix:
-                node-version: [16.17.0]
+    generate-report:
+        runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
-            - name: Use Node.js ${{ matrix.node-version }}
-              uses: actions/setup-node@v2
+            - name: Download Cypress
+              uses: bahmutov/npm-install@v1
+              env:
+                  CYPRESS_INSTALL_BINARY: 0
+
+            - name: Check Cypress cache
+              run: |
+                  npx cypress cache path
+                  npx cypress cache list
+
+            - name: restore / cache the binary
+              id: cache-cypress
+              uses: actions/cache@v1
               with:
-                  node-version: ${{ matrix.node-version }}
-                  cache: "npm"
-            - name: update node manager
-              run: npm i npm@latest
-            - name: install all dependencies
-              run: npm i
+                  path: ~/.cache/Cypress
+                  key: >-
+                      cypress-cache-v2-${{ runner.os }}-${{ hashFiles('**/package.json')
+                      }}
+
             - name: Install Cypress
-              run: npm install cypress
-            - name: Install cypress-cucumber-preprocessor
-              run: npm install @badeball/cypress-cucumber-preprocessor
-            - name: Install cypress-esbuild-preprocessor
-              run: npm i --seve-dev @bahmutov/cypress-esbuild-preprocessor
-            - name: Install reporter dev
-              run: npm install multiple-cucumber-html-reporter --save-dev
-            - name: run test
-              run: npm run cypress:run
+              run: |
+                  npx cypress install
+                  npx cypress cache list
+
+            - name: Run Cypress
+              continue-on-error: true
+              run: npm run cy:run
+
+            - name: Run Cypress Cucumber
+              continue-on-error: true
+              if: always()
+              run: npm run cy:cucumber:run
             - name: Generate reports
               if: always()
               run: npm run cypress:report
