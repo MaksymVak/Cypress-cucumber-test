@@ -32,15 +32,15 @@ class CompanyPage {
     }
     goReportAbuse () {
         generalPage.clickElement(reportAbuseLink)
-        generalPage.waitSeconds(1500)
+        generalPage.waitSeconds(2000)
     }
     goDataPrivacy () {
         generalPage.clickElement(dataPrivacyLink)
-        generalPage.waitSeconds(1500)
+        generalPage.waitSeconds(2000)
     }
     goPrivatePolice () {
         generalPage.clickElement(privatPoliceLink)
-        generalPage.waitSeconds(1500)
+        generalPage.waitSeconds(2000)
     }
     checkLink (link) {
         generalPage.clickElementContains(validatLink, link)

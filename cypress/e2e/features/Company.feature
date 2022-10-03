@@ -38,7 +38,7 @@ Feature: Company - link testing
         When Go to the page Report Abuse
         When Fill out the report form and click the submit button
             | subject   | phone         | phonRecAbus    | fullName     |
-            | Testing   | 1111111111    | 2222222222     | Ivan         |
+            | Testing   | 1111111111    | 2222222222     | Ivanco       |
         Then An error message should appear
 
     Scenario: TC-05 Checking page titles Privacy Policy
