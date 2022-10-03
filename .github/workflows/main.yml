@@ -1,10 +1,11 @@
-name: allure-report
+name: E2E test with allure-report
 'on':
+    workflow_dispatch:
     push:
         branches:
-            - master
+            - main
 jobs:
-    generate-report:
+    cypress-run:
         runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
@@ -34,7 +35,7 @@ jobs:
 
             - name: Run Cypress
               continue-on-error: true
-              run: npm run cy:run
+              run: npm run cy:test
 
             - name: Run Cypress Cucumber
               continue-on-error: true
