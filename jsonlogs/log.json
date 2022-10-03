@@ -13,7 +13,7 @@
             "line": 6,
             "name": "Opens the web browser of the home page of the site",
             "result": {
-              "duration": 2793000000,
+              "duration": 2425000000,
               "status": "passed"
             },
             "match": {
@@ -25,7 +25,7 @@
             "line": 7,
             "name": "Reset the cookie window",
             "result": {
-              "duration": 248000000,
+              "duration": 225000000,
               "status": "passed"
             },
             "match": {
@@ -37,17 +37,17 @@
       },
       {
         "description": "",
-        "id": "call-us---link-testing;checking-the-visibility-of-phone-numbers",
+        "id": "call-us---link-testing;tc-06-checking-the-visibility-of-phone-numbers",
         "keyword": "Scenario",
         "line": 9,
-        "name": "Checking the visibility of phone numbers",
+        "name": "TC-06 Checking the visibility of phone numbers",
         "steps": [
           {
             "keyword": "When ",
             "line": 10,
             "name": "Open menu Call Us and go to the page Calling from overseas",
             "result": {
-              "duration": 401000000,
+              "duration": 409000000,
               "status": "passed"
             },
             "match": {
@@ -59,7 +59,7 @@
             "line": 11,
             "name": "The section title should be \"Calling from overseas?\"",
             "result": {
-              "duration": 1136000000,
+              "duration": 481000000,
               "status": "passed"
             },
             "match": {
@@ -71,7 +71,7 @@
             "line": 12,
             "name": "Phone numbers of the respective countries must be present",
             "result": {
-              "duration": 894000000,
+              "duration": 869000000,
               "status": "passed"
             },
             "match": {
@@ -169,7 +169,7 @@
             "line": 6,
             "name": "Opens the web browser of the home page of the site",
             "result": {
-              "duration": 3727000000,
+              "duration": 4245000000,
               "status": "passed"
             },
             "match": {
@@ -181,7 +181,7 @@
             "line": 7,
             "name": "Reset the cookie window",
             "result": {
-              "duration": 213000000,
+              "duration": 208000000,
               "status": "passed"
             },
             "match": {
@@ -193,17 +193,17 @@
       },
       {
         "description": "",
-        "id": "company---link-testing;about-us-checking-texts-and-addresses",
+        "id": "company---link-testing;tc-02-about-us-checking-texts-and-addresses",
         "keyword": "Scenario",
         "line": 9,
-        "name": "About Us checking texts and addresses",
+        "name": "TC-02 About Us checking texts and addresses",
         "steps": [
           {
             "keyword": "When ",
             "line": 10,
             "name": "Go to the page About Us",
             "result": {
-              "duration": 179000000,
+              "duration": 166000000,
               "status": "passed"
             },
             "match": {
@@ -215,7 +215,7 @@
             "line": 11,
             "name": "The title of the page will be \"Unlocking the power of intelligent connectivity\"",
             "result": {
-              "duration": 556000000,
+              "duration": 570000000,
               "status": "passed"
             },
             "match": {
@@ -227,7 +227,7 @@
             "line": 12,
             "name": "An address in the city must be available",
             "result": {
-              "duration": 478000000,
+              "duration": 474000000,
               "status": "passed"
             },
             "match": {
@@ -285,7 +285,7 @@
             "line": 6,
             "name": "Opens the web browser of the home page of the site",
             "result": {
-              "duration": 1742000000,
+              "duration": 1499000000,
               "status": "passed"
             },
             "match": {
@@ -297,7 +297,7 @@
             "line": 7,
             "name": "Reset the cookie window",
             "result": {
-              "duration": 11000000,
+              "duration": 18000000,
               "status": "passed"
             },
             "match": {
@@ -309,17 +309,17 @@
       },
       {
         "description": "",
-        "id": "company---link-testing;data-\u0026-privacy-following-links",
+        "id": "company---link-testing;tc-03-data-\u0026-privacy-following-links",
         "keyword": "Scenario",
         "line": 21,
-        "name": "Data \u0026 Privacy following links",
+        "name": "TC-03 Data \u0026 Privacy following links",
         "steps": [
           {
             "keyword": "When ",
             "line": 22,
             "name": "Go to the page Data \u0026 Privacy",
             "result": {
-              "duration": 1706000000,
+              "duration": 1668000000,
               "status": "passed"
             },
             "match": {
@@ -331,7 +331,7 @@
             "line": 23,
             "name": "Let's follow the link",
             "result": {
-              "duration": 1243000000,
+              "duration": 1274000000,
               "status": "passed"
             },
             "match": {
@@ -370,7 +370,7 @@
             "line": 29,
             "name": "Section heading must match",
             "result": {
-              "duration": 248000000,
+              "duration": 244000000,
               "status": "passed"
             },
             "match": {
@@ -418,7 +418,7 @@
             "line": 6,
             "name": "Opens the web browser of the home page of the site",
             "result": {
-              "duration": 1416000000,
+              "duration": 1458000000,
               "status": "passed"
             },
             "match": {
@@ -430,7 +430,7 @@
             "line": 7,
             "name": "Reset the cookie window",
             "result": {
-              "duration": 9000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "match": {
@@ -442,17 +442,17 @@
       },
       {
         "description": "",
-        "id": "company---link-testing;report-abuse-filling-out-the-form",
+        "id": "company---link-testing;tc-04-report-abuse-filling-out-the-form",
         "keyword": "Scenario",
         "line": 37,
-        "name": "Report Abuse filling out the form",
+        "name": "TC-04 Report Abuse filling out the form",
         "steps": [
           {
             "keyword": "When ",
             "line": 38,
             "name": "Go to the page Report Abuse",
             "result": {
-              "duration": 1717000000,
+              "duration": 1690000000,
               "status": "passed"
             },
             "match": {
@@ -464,7 +464,7 @@
             "line": 39,
             "name": "Fill out the report form and click the submit button",
             "result": {
-              "duration": 1827000000,
+              "duration": 1748000000,
               "status": "passed"
             },
             "match": {
@@ -494,7 +494,7 @@
             "line": 42,
             "name": "An error message should appear",
             "result": {
-              "duration": 24000000,
+              "duration": 26000000,
               "status": "passed"
             },
             "match": {
@@ -515,7 +515,7 @@
             "line": 6,
             "name": "Opens the web browser of the home page of the site",
             "result": {
-              "duration": 1147000000,
+              "duration": 3127000000,
               "status": "passed"
             },
             "match": {
@@ -527,7 +527,7 @@
             "line": 7,
             "name": "Reset the cookie window",
             "result": {
-              "duration": 10000000,
+              "duration": 28000000,
               "status": "passed"
             },
             "match": {
@@ -539,17 +539,17 @@
       },
       {
         "description": "",
-        "id": "company---link-testing;checking-page-titles-privacy-policy",
+        "id": "company---link-testing;tc-05-checking-page-titles-privacy-policy",
         "keyword": "Scenario",
         "line": 44,
-        "name": "Checking page titles Privacy Policy",
+        "name": "TC-05 Checking page titles Privacy Policy",
         "steps": [
           {
             "keyword": "When ",
             "line": 45,
             "name": "Go to the page Privacy Policy",
             "result": {
-              "duration": 1688000000,
+              "duration": 1695000000,
               "status": "passed"
             },
             "match": {
@@ -561,7 +561,7 @@
             "line": 46,
             "name": "Page url must contain \"/privacy-policy\"",
             "result": {
-              "duration": 20000000,
+              "duration": 14000000,
               "status": "passed"
             },
             "match": {
@@ -573,7 +573,7 @@
             "line": 47,
             "name": "Page titles should contain relevant text",
             "result": {
-              "duration": 783000000,
+              "duration": 925000000,
               "status": "passed"
             },
             "match": {
@@ -641,7 +641,7 @@
             "line": 6,
             "name": "Opens the web browser of the home page of the site",
             "result": {
-              "duration": 3305000000,
+              "duration": 3662000000,
               "status": "passed"
             },
             "match": {
@@ -653,7 +653,7 @@
             "line": 7,
             "name": "Reset the cookie window",
             "result": {
-              "duration": 218000000,
+              "duration": 220000000,
               "status": "passed"
             },
             "match": {
@@ -665,17 +665,17 @@
       },
       {
         "description": "",
-        "id": "pricing---function-test;elastic-sip-trunking-pricing",
+        "id": "pricing---function-test;tc-01-elastic-sip-trunking-pricing",
         "keyword": "Scenario",
         "line": 8,
-        "name": "Elastic SIP Trunking pricing",
+        "name": "TC-01 Elastic SIP Trunking pricing",
         "steps": [
           {
             "keyword": "When ",
             "line": 9,
             "name": "Go to the page Elastic SIP Trunking pricing",
             "result": {
-              "duration": 2187000000,
+              "duration": 2196000000,
               "status": "passed"
             },
             "match": {
@@ -687,7 +687,7 @@
             "line": 10,
             "name": "Choose a country Ukraine",
             "result": {
-              "duration": 602000000,
+              "duration": 610000000,
               "status": "passed"
             },
             "match": {
@@ -699,7 +699,7 @@
             "line": 11,
             "name": "The page title contains the \"Ukraine\" and url contains \"/ua\"",
             "result": {
-              "duration": 838000000,
+              "duration": 693000000,
               "status": "passed"
             },
             "match": {
@@ -730,7 +730,7 @@
             "line": 6,
             "name": "Opens the web browser of the home page of the site",
             "result": {
-              "duration": 3970000000,
+              "duration": 3900000000,
               "status": "passed"
             },
             "match": {
@@ -742,7 +742,7 @@
             "line": 7,
             "name": "Reset the cookie window",
             "result": {
-              "duration": 217000000,
+              "duration": 208000000,
               "status": "passed"
             },
             "match": {
@@ -754,17 +754,17 @@
       },
       {
         "description": "",
-        "id": "product---link-and-text-testing;elastic-sip-trunking---whatever-you-need,-build-it-with-telnyx",
+        "id": "product---link-and-text-testing;tc-07-elastic-sip-trunking---whatever-you-need,-build-it-with-telnyx",
         "keyword": "Scenario",
         "line": 9,
-        "name": "Elastic SIP Trunking - Whatever you need, build it with Telnyx",
+        "name": "TC-07 Elastic SIP Trunking - Whatever you need, build it with Telnyx",
         "steps": [
           {
             "keyword": "When ",
             "line": 10,
             "name": "Go to the page Elastic SIP Trunking",
             "result": {
-              "duration": 1711000000,
+              "duration": 1706000000,
               "status": "passed"
             },
             "match": {
@@ -776,7 +776,7 @@
             "line": 11,
             "name": "Clicking on a link should open the corresponding page",
             "result": {
-              "duration": 3849000000,
+              "duration": 3763000000,
               "status": "passed"
             },
             "match": {
@@ -824,7 +824,7 @@
             "line": 6,
             "name": "Opens the web browser of the home page of the site",
             "result": {
-              "duration": 1199000000,
+              "duration": 1434000000,
               "status": "passed"
             },
             "match": {
@@ -836,7 +836,7 @@
             "line": 7,
             "name": "Reset the cookie window",
             "result": {
-              "duration": 14000000,
+              "duration": 16000000,
               "status": "passed"
             },
             "match": {
@@ -848,17 +848,17 @@
       },
       {
         "description": "",
-        "id": "product---link-and-text-testing;voice-api---build-exactly-what-you-need-for-your-use-case.",
+        "id": "product---link-and-text-testing;tc-08-voice-api---build-exactly-what-you-need-for-your-use-case",
         "keyword": "Scenario",
         "line": 18,
-        "name": "Voice Api - Build exactly what you need for your use-case.",
+        "name": "TC-08 Voice Api - Build exactly what you need for your use-case",
         "steps": [
           {
             "keyword": "When ",
             "line": 19,
             "name": "Go to the page Voice Api",
             "result": {
-              "duration": 1694000000,
+              "duration": 1680000000,
               "status": "passed"
             },
             "match": {
@@ -870,7 +870,7 @@
             "line": 20,
             "name": "Clicking on a link should open the corresponding section",
             "result": {
-              "duration": 1604000000,
+              "duration": 1468000000,
               "status": "passed"
             },
             "match": {
@@ -928,7 +928,7 @@
             "line": 6,
             "name": "Opens the web browser of the home page of the site",
             "result": {
-              "duration": 1399000000,
+              "duration": 1241000000,
               "status": "passed"
             },
             "match": {
@@ -940,7 +940,7 @@
             "line": 7,
             "name": "Reset the cookie window",
             "result": {
-              "duration": 9000000,
+              "duration": 8000000,
               "status": "passed"
             },
             "match": {
@@ -952,17 +952,17 @@
       },
       {
         "description": "",
-        "id": "product---link-and-text-testing;voice-api---all-your-business-needs,-in-one-api",
+        "id": "product---link-and-text-testing;tc-09-voice-api---all-your-business-needs,-in-one-api",
         "keyword": "Scenario",
         "line": 29,
-        "name": "Voice Api - All your business needs, in one API",
+        "name": "TC-09 Voice Api - All your business needs, in one API",
         "steps": [
           {
             "keyword": "When ",
             "line": 30,
             "name": "Go to the page Voice Api",
             "result": {
-              "duration": 1674000000,
+              "duration": 1673000000,
               "status": "passed"
             },
             "match": {
@@ -974,7 +974,7 @@
             "line": 31,
             "name": "Clicking on a link should open the corresponding page",
             "result": {
-              "duration": 3556000000,
+              "duration": 3609000000,
               "status": "passed"
             },
             "match": {
@@ -1022,7 +1022,7 @@
             "line": 6,
             "name": "Opens the web browser of the home page of the site",
             "result": {
-              "duration": 1449000000,
+              "duration": 1706000000,
               "status": "passed"
             },
             "match": {
@@ -1046,17 +1046,17 @@
       },
       {
         "description": "",
-        "id": "product---link-and-text-testing;number-lookup---what-can-you-build-with-the-telnyx-lookup-api",
+        "id": "product---link-and-text-testing;tc-10-number-lookup---what-can-you-build-with-the-telnyx-lookup-api",
         "keyword": "Scenario",
         "line": 38,
-        "name": "Number Lookup - What can you build with the Telnyx Lookup API",
+        "name": "TC-10 Number Lookup - What can you build with the Telnyx Lookup API",
         "steps": [
           {
             "keyword": "When ",
             "line": 39,
             "name": "Go to the page Number Lookup",
             "result": {
-              "duration": 1660000000,
+              "duration": 1675000000,
               "status": "passed"
             },
             "match": {
@@ -1068,7 +1068,7 @@
             "line": 40,
             "name": "Clicking on a link should open the corresponding page",
             "result": {
-              "duration": 3250000000,
+              "duration": 3280000000,
               "status": "passed"
             },
             "match": {
@@ -1116,7 +1116,7 @@
             "line": 6,
             "name": "Opens the web browser of the home page of the site",
             "result": {
-              "duration": 1289000000,
+              "duration": 1432000000,
               "status": "passed"
             },
             "match": {
@@ -1128,7 +1128,7 @@
             "line": 7,
             "name": "Reset the cookie window",
             "result": {
-              "duration": 8000000,
+              "duration": 12000000,
               "status": "passed"
             },
             "match": {
@@ -1140,17 +1140,17 @@
       },
       {
         "description": "",
-        "id": "product---link-and-text-testing;fax-api---check-link-and-page-title",
+        "id": "product---link-and-text-testing;tc-11-fax-api---check-link-and-page-title",
         "keyword": "Scenario",
         "line": 47,
-        "name": "Fax Api - Check link and page title",
+        "name": "TC-11 Fax Api - Check link and page title",
         "steps": [
           {
             "keyword": "When ",
             "line": 48,
             "name": "Go to the page Fax Api through the menu See all Products",
             "result": {
-              "duration": 3566000000,
+              "duration": 3658000000,
               "status": "passed"
             },
             "match": {
@@ -1162,7 +1162,7 @@
             "line": 49,
             "name": "The page address must contain \"fax-api\"",
             "result": {
-              "duration": 14000000,
+              "duration": 42000000,
               "status": "passed"
             },
             "match": {
@@ -1174,7 +1174,7 @@
             "line": 50,
             "name": "The page title should be \"Reliably transmit documents with our Programmable Fax API over Private IP\"",
             "result": {
-              "duration": 74000000,
+              "duration": 68000000,
               "status": "passed"
             },
             "match": {
@@ -1205,7 +1205,7 @@
             "line": 6,
             "name": "Opens the web browser of the home page of the site",
             "result": {
-              "duration": 3389000000,
+              "duration": 3370000000,
               "status": "passed"
             },
             "match": {
@@ -1217,7 +1217,7 @@
             "line": 7,
             "name": "Reset the cookie window",
             "result": {
-              "duration": 214000000,
+              "duration": 210000000,
               "status": "passed"
             },
             "match": {
@@ -1229,17 +1229,17 @@
       },
       {
         "description": "",
-        "id": "resources---link-testing;testing-the-blog-filter",
+        "id": "resources---link-testing;tc-12-testing-the-blog-filter",
         "keyword": "Scenario",
         "line": 9,
-        "name": "Testing the blog filter",
+        "name": "TC-12 Testing the blog filter",
         "steps": [
           {
             "keyword": "When ",
             "line": 10,
             "name": "Go to the page Blog",
             "result": {
-              "duration": 1793000000,
+              "duration": 1678000000,
               "status": "passed"
             },
             "match": {
@@ -1251,7 +1251,7 @@
             "line": 11,
             "name": "Select Voice API and select \"Guides \u0026 Tutorials\"",
             "result": {
-              "duration": 1799000000,
+              "duration": 1788000000,
               "status": "passed"
             },
             "match": {
@@ -1263,7 +1263,7 @@
             "line": 12,
             "name": "Headers must contain \"Guides \u0026 Tutorials\"",
             "result": {
-              "duration": 1699000000,
+              "duration": 34000000,
               "status": "passed"
             },
             "match": {
@@ -1284,7 +1284,7 @@
             "line": 6,
             "name": "Opens the web browser of the home page of the site",
             "result": {
-              "duration": 1403000000,
+              "duration": 1520000000,
               "status": "passed"
             },
             "match": {
@@ -1296,7 +1296,7 @@
             "line": 7,
             "name": "Reset the cookie window",
             "result": {
-              "duration": 9000000,
+              "duration": 15000000,
               "status": "passed"
             },
             "match": {
@@ -1308,17 +1308,17 @@
       },
       {
         "description": "",
-        "id": "resources---link-testing;resource-hub-page-title-check",
+        "id": "resources---link-testing;tc-13-resource-hub-page-title-check",
         "keyword": "Scenario",
         "line": 14,
-        "name": "Resource Hub page title check",
+        "name": "TC-13 Resource Hub page title check",
         "steps": [
           {
             "keyword": "When ",
             "line": 15,
             "name": "Go to the page Resource Hub",
             "result": {
-              "duration": 1689000000,
+              "duration": 1656000000,
               "status": "passed"
             },
             "match": {
@@ -1330,7 +1330,7 @@
             "line": 16,
             "name": "Page titles must match the text",
             "result": {
-              "duration": 388000000,
+              "duration": 411000000,
               "status": "passed"
             },
             "match": {
@@ -1398,7 +1398,7 @@
             "line": 6,
             "name": "Opens the web browser of the home page of the site",
             "result": {
-              "duration": 1442000000,
+              "duration": 1401000000,
               "status": "passed"
             },
             "match": {
@@ -1410,7 +1410,7 @@
             "line": 7,
             "name": "Reset the cookie window",
             "result": {
-              "duration": 11000000,
+              "duration": 13000000,
               "status": "passed"
             },
             "match": {
@@ -1422,17 +1422,17 @@
       },
       {
         "description": "",
-        "id": "resources---link-testing;checking-links-and-news-feed-texts",
+        "id": "resources---link-testing;tc-14-checking-links-and-news-feed-texts",
         "keyword": "Scenario",
         "line": 27,
-        "name": "Checking links and news feed texts",
+        "name": "TC-14 Checking links and news feed texts",
         "steps": [
           {
             "keyword": "When ",
             "line": 28,
             "name": "Go to the page Release Notes",
             "result": {
-              "duration": 1680000000,
+              "duration": 1684000000,
               "status": "passed"
             },
             "match": {
@@ -1444,7 +1444,7 @@
             "line": 29,
             "name": "The url must match \"/release-notes\"",
             "result": {
-              "duration": 12000000,
+              "duration": 22000000,
               "status": "passed"
             },
             "match": {
@@ -1456,7 +1456,7 @@
             "line": 30,
             "name": "The page title should be \"Release Notes\" and the filter menu should be visible",
             "result": {
-              "duration": 62000000,
+              "duration": 67000000,
               "status": "passed"
             },
             "match": {
@@ -1487,7 +1487,7 @@
             "line": 6,
             "name": "Opens the web browser of the home page of the site",
             "result": {
-              "duration": 4090000000,
+              "duration": 3510000000,
               "status": "passed"
             },
             "match": {
@@ -1499,7 +1499,7 @@
             "line": 7,
             "name": "Reset the cookie window",
             "result": {
-              "duration": 208000000,
+              "duration": 218000000,
               "status": "passed"
             },
             "match": {
@@ -1511,17 +1511,17 @@
       },
       {
         "description": "",
-        "id": "waitlist---link-testing;waitlist---functionality-check",
+        "id": "waitlist---link-testing;tc-14-waitlist---functionality-check",
         "keyword": "Scenario",
         "line": 9,
-        "name": "Waitlist - functionality check",
+        "name": "TC-14 Waitlist - functionality check",
         "steps": [
           {
             "keyword": "When ",
             "line": 10,
             "name": "Go to the page Waitlist and go to the form Waitlist",
             "result": {
-              "duration": 4415000000,
+              "duration": 4380000000,
               "status": "passed"
             },
             "match": {
@@ -1533,7 +1533,7 @@
             "line": 11,
             "name": "Enter random values in all fields",
             "result": {
-              "duration": 1461000000,
+              "duration": 1435000000,
               "status": "passed"
             },
             "match": {
@@ -1545,7 +1545,7 @@
             "line": 12,
             "name": "The title of the page must match \"You're on the waitlist!\"",
             "result": {
-              "duration": 2463000000,
+              "duration": 2205000000,
               "status": "passed"
             },
             "match": {
